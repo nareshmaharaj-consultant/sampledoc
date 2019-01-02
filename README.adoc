@@ -1,22 +1,21 @@
 # This is the title of the Document
 
 = Section 1
-= Section 2
-= Section 3
 
-asd
-asd
-asdas
-d
-asdas
-d
+Now some `text`
 
-
-
-= Section 1
-
-Now some text
-
+* Code listings:
++
+[source,python]
+-----------------
+#!/usr/bin/env python
+import antigravity
+try:
+  antigravity.fly()
+except FlytimeError as e:
+  # um...not sure what to do now.
+  pass
+-----------------
 
 = Section 2
 
